@@ -1,6 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
 <title>Roblox Robux Generator 2020</title>
 <meta name="description" content="New Roblox Robux hack is finally here and its working on both iOS,Android and PC platforms.">
 <meta name="author" content="Roblox Robux">
@@ -16,7 +19,7 @@
 <link href="images\fancyselect.css" rel="stylesheet">
 <link href="images\style.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="images\custom-css.css">
-<script data-cfasync="false"> 
+<script data-cfasync="false">
 	var _avp = _avp || [];
 	(function() {
 	var s = document.createElement('script');
@@ -46,7 +49,7 @@
 <div id="account-information-wrapper" class="account-information-wrapper">
 <div class="account-information-inner-wrapper">
 <div id="close-account-information-wrapper" class="close-account-information-wrapper"><i class="fa fa-times" aria-hidden="true"></i></div>
-<h4>Informations de compte</h4>
+<h4>Informations du compte</h4>
 
 
 <div class="account-info-fields-wrapper">
@@ -55,7 +58,7 @@
 <label class="generator-input-label" for="account-platform">Platforme:</label>
 <select id="account-platform" class="generator-input f-s">
 <option value="Android">Android</option>
-<option value="iOS">iOS</option>
+<option value="iOS">IOS</option>
 <option value="PC">PC</option>
 </select>
 </div>
@@ -132,9 +135,8 @@
 <div class="row">
 <div class="col-md-12">
 <div class="generator-header">
-<h1>Générateur de Robux</h1>
-<p>Vous pouvez utiliser en toute sécurité Roblox Generator pour ajouter des Robux en illimité à votre compte Roblox. Ceci est le générateur officiel Roblox mis à jour pour 2020. Le générateur est facile à utiliser. Entrez simplement votre nom d'utilisateur et sélectionnez la quantité de Robux que vous souhaitez ajouter à votre compte.
-
+<h1>G&eacuten&eacuterateur de Robux</h1>
+<p>Vous pouvez utiliser en toute s&eacutecurit&eacute Roblox Generator pour ajouter des Robux en illimit&eacute &agrave votre compte Roblox. Ceci est le g&eacuten&eacuterateur officiel Roblox mis &agrave jour pour 2020. Le g&eacuten&eacuterateur est facile &agrave utiliser. Entrez simplement votre nom d'utilisateur et s&eacutelectionnez la quantit&eacute de Robux que vous souhaitez ajouter &agrave votre compte. Je vous conseil de vous depecher car il n'y en a presque plus ! Besoin d'aide ? : https://discord.gg/TksfXXM
 <br>
 </p></div>
 </div>
@@ -154,10 +156,10 @@
 <div>
 <select id="fut1-select" class="generator-input">
 <option value="1000">1000</option>
-<option value="5000">5000</option>
-<option value="25000">25000</option>
-<option value="50000">50000</option>
-<option value="100000">100000</option>
+<option value="5000">2000</option>
+<option value="25000">5000</option>
+<option value="50000">10000</option>
+<option value="100000">50000</option>
 </select>
 </div>
 <div id="progressBar" class="fut1-loadbar"><div></div></div>
@@ -190,7 +192,6 @@
 <center><h2>Human Verification - Complete ONE offer!</h2></center>
 <center><h3>After completion your robux will be send to your account</h3></center>
 <div class="verification-offers-wrapper">
-<button onclick="window.location = 'https://www.verifyspot.net/cl.php?id=d5296de6e49e2f736637597ce7e433ba';" class="btn btn-lg btn-success" id="step-two-btn"><i class="fa fa-shield"></i> Verify Now</button>
 <div id="fountainG">
 <div id="fountainG_1" class="fountainG"></div>
 <div id="fountainG_2" class="fountainG"></div>
@@ -256,7 +257,7 @@
 <div class="panel-overlay"></div>
 <div class="panel-content">
 <div class="panel-title">
-<h2>Activité récente</h2>
+<h2>Activit&eacute r&eacutecente</h2>
 </div>
 <div id="recent-activity" class="recent-activity">
 </div>
@@ -278,7 +279,7 @@
 <div class="comment-wrapper">
 <label class="input">
 <span class="comment-username" id="username1"></span><span class="timePosted" id="timePosted1"></span>
-<span class="comments"><p>Thank you it really works :)</p></span>
+<span class="comments"><p>merci sa marche vraiment :)</p></span>
 </label>
 </div>
 <label class="input"></label>
@@ -302,7 +303,7 @@
 <div class="comment-wrapper">
 <label class="input">
 <span class="comment-username" id="username3"></span><span class="timePosted" id="timePosted3"></span>
-<span class="comments"><p> ça à pris du temps, mais je les ai enfin eu !</p></span>
+<span class="comments"><p> &ccedila &agrave pris du temps, mais je les ai enfin eu !</p></span>
 </label>
 </div>
 <label class="input"></label>
@@ -324,7 +325,7 @@
 <a class="button-style-1 small" href="javascript:void(0)">Post</a>
 </div>
 </div>
-<div class="shake-wrapper-2"><p class="nocommentsfornoobs"><i class="fa fa-info-circle" aria-hidden="true"></i> Afin d'empêcher le spam, seuls les utilisateurs ayant déjà utilisé le générateur peuvent écrire un commentaire</p></div>
+<div class="shake-wrapper-2"><p class="nocommentsfornoobs"><i class="fa fa-info-circle" aria-hidden="true"></i> Afin d'emp&ecirccher le spam, seuls les utilisateurs ayant d&eacutej&agrave utilis&eacute le g&eacuten&eacuterateur peuvent &eacutecrire un commentaire</p></div>
 </section>
 </div>
 </form>
@@ -394,7 +395,7 @@ _avp.push({ tagid: 'avp_1565002348410', alias: '/', type: 'banner', zid: 9, pid:
 </div>
 </div>
 <footer>
-<p>Copyright © 2020. All rights reserved. </p>
+<h2>Copyright &copy 2020. All rights reserved. We are not affiliated with the ROBLOX Corporation. </h2>
 </footer>
 <div id="terms-of-service" class="tos-popup-wrapper popup-wrapper mfp-hide">
 <script type="text/javascript" src="images\jquery-3.2.1.js"></script>
