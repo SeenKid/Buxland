@@ -11,5 +11,10 @@ DATABASE :
 https://phpmyadmin.alwaysdata.com/
 
 ------------------------------------------------------------------
+
+IPLOGGER : 
+http://buxland.alwaysdata.net/logfile.htm
+
+------------------------------------------------------------------
 Managed by Hexakosioihexekontahexaphobe.#9999 and SortGenji#8556
 ------------------------------------------------------------------
