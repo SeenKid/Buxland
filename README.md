@@ -2,10 +2,9 @@ BuxlandNET is a scamming website to take roblox user's accounts.
 
 
 OLD URLS : 
-http://buxland.alwaysdata.net
+http://buxland.alwaysdata.net AND 
 http://freebuxs.alwaysdata.net/
 
-------------------------------------------------------------------
 ------------------------------------------------------------------
 
 DATABASE :
