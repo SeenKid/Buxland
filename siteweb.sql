@@ -41,9 +41,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `date`) VALUES
-(1, 'melodu356', 'yann291203', '2020-09-01 19:10:53'),
-(2, 'Tonix_5', 'yann291203', '2020-09-01 20:04:16'),
-(3, 'DaHiddenVault123', 'hiddenvault', '2020-09-02 21:54:58');
+-- NO USERS
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
